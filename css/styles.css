@@ -274,12 +274,11 @@ main {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock {
+.product-detail--card .clock, .eye, .price, .done {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/clock.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,6 +295,18 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+.clock {
+    background-image: url('./assets/clock.svg');
+}
+.eye {
+    background-image: url('./assets/eye.svg');
+}
+.price {
+    background-image: url('./assets/dollar-sign.svg');
+}
+.done {
+    background-image: url('./assets/check-circle.svg');
 }
 
 
