@@ -356,6 +356,7 @@ main {
 }
 .plans-container--slider {
     display: flex;
+    justify-content: center;
     height: 316px;
     overflow-x:scroll ;
     overscroll-behavior-x: contain;
